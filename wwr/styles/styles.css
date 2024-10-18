@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,33 @@
 #background {
     height: 725px;
 }
+
+
+/* Fonts*/
+* {
+    font-family: 'Glegoo', helvetica, sans-serif;
+}
+
+.home-title,
+.msg h2 {
+    font-family: 'Lobster';
+    font-size: 2em;
+}
+
+.msg p {
+    font-size: .8em;
+}
+
+.book,
+.join {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+
 
 /* Image declerations */
 .logo {
@@ -27,6 +57,73 @@ nav a,
 #hero-msg h4,
 main section {
     text-align: center;
+}
+
+.home-title {
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg p {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: #354B65 solid 10px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+id-background{
+    margin: 20px;
 }
 
 /* Color for texts and backgrounds */
@@ -54,17 +151,18 @@ h2 {
 }
 
 .book {
-    background-color: #EBF3F7;
+    background-color: #f7dd75;
     color: #354B65
 }
 
 .join {
-    background-color: #EBF3F7;
-    color: #354B65
+    background-color: #354B65;
+    color: #EBF3F7;
 }
 
 .join:hover {
-    color: #557EB1;
+    color: #354B65;
+    background-color: #EBF3F7;
 }
 
 .book:hover {
@@ -85,7 +183,8 @@ footer {
     background-color: #f7dd75;
 }
 
-footer a, footer p {
+footer a,
+footer p {
     color: #557EB1;
 }
 
@@ -101,11 +200,6 @@ footer a {
     text-decoration: none;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
-}
-
-/* Font Sizes */
-footer p {
-    font-size: 1.2em;
 }
