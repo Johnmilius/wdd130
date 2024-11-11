@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 9</title>
+</head>
+
+
+<style>
+    body {
+        background-color: black;
+    }
+    .blog-post {
+        background-color: white;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    .blog-text{
+        color: grey;
+    }
+
+    .blog-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .blog-stats div {
+        background-color: blue;
+        color: white;
+    }
+    p, h1{
+        text-align: center;
+    }
+    h1{
+        margin-top: 2px;
+    }
+
+    #weeks{
+        color:lightskyblue;
+        margin-bottom: 2px;
+    }
+    #bottom{
+        margin-top: 2px;
+        size: .25em;
+    }
+    #top{
+        margin-bottom: 2px;
+        size: .5em;
+    }
+</style>
+
+<body>
+    <div class="blog-post">
+        <img src="images/w09_ice_img.jpg" alt="City Scape">
+        <p id="weeks">3 weeks ago</p>
+        <h1>Post Three</h1>
+        <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis magni fuga libero
+            cum. Obcaecati nulla ullam enim. Exercitationem ex distinctio qui suscipit modi placeat tempora et incidunt
+            perferendis quibusdam.</p>
+
+        <div class="blog-stats">
+            <div>
+                <p id="top">5<sup>m</sup></p>
+                <p id="bottom">READ</p>
+            </div>
+            <div>
+                <p id="top">2031</p>
+                <p id="bottom">VIEWS</p>
+            </div>
+            <div>
+                <p id="top">15</p>
+                <p id="bottom">COMMENTS</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
