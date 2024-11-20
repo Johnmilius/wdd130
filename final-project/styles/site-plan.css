@@ -7,11 +7,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #272727ff;
-  --secondary-color: #799496ff;
-  --accent1-color: #f3f9d2ff;
-  --accent2-color: #af3800ff;
-  --accent3-color: #fe621dff;
+  --primary-color: #272727;
+  --secondary-color: #799496;
+  --accent1-color: #f3f9d2;
+  --accent2-color: #af3800;
+  --accent3-color: #fe621d;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Oregano";
