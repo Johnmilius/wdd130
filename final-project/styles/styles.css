@@ -1,42 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 /* ^ PARAGRAPH TEXT ^ */
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oregano:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oregano:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 
-* {
-    border: .5px black solid;
+/* * {
+  border: 0.5px black solid;
+} */
+body{
+    margin: 0;
+}
+
+
+h1,
+h2 {
+  font-family: "Oregeno", "Caveat Brush";
+}
+
+p {
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+main {
+  background-color: #799496;
 }
 
 /* Header Css */
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    background-color: #272727;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #272727;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: black 5px solid;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav_links {
-    border-radius: 100px;
-    align-self: center;
-    justify-self: center;
-    padding: 10px;
-    color: #f3f9d2;
-    background-color: #af3800;
+  border-radius: 100px;
+  border: solid black 2.5px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  color: #f3f9d2;
+  background-color: #af3800;
+  text-decoration: none;
 }
 
 .nav_links:hover {
-    background-color: #fe621d;
-    color: #272727;
+  background-color: #fe621d;
+  color: #272727;
 }
 
-#logo_link{
-    align-self: center;
-    justify-self: center;
+#logo_link {
+  align-self: center;
+  justify-self: center;
 }
 
 /* Footer Css */
 
+footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #272727;
+  color: #f3f9d2;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+footer img {
+  max-width: 50px;
+}
+
+/* Everything Below is Home Page */
+
+#hero-image-home {
+  width: 100%;
+}
+
+#who-am-i {
+  background-color: #af3800;
+  color: #f3f9d2;
+  border: solid black 5px;
+  margin: 50px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  font-size: larger;
+  gap: 20px;
+}
+
+#who-am-i div {
+  grid-column: 1/2;
+}
+
+#who-am-i-image {
+  grid-column: 2/3;
+}
+
+/* Hero Image main */
+#hero-image-home {
+  border-bottom: black 5px solid;
+}
+
+/* The journey section */
+
+#my-journey-box {
+  padding: 30px;
+  text-align: center;
+  font-size: larger;
+  background-color: #f3f9d2;
+  color: #272727;
+}
+
+#my-journey-box h2:nth-of-type(1),
+#my-journey-box h2:nth-of-type(3) {
+  text-align: left;
+  margin-left: 50px;
+}
+
+#my-journey-box h2:nth-of-type(2),
+#my-journey-box h2:nth-of-type(4) {
+  text-align: right;
+  margin-right: 50px;
+}
+
+/* Quick Links at the bottom */
+
+#bottom-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  gap: 200px;
+  text-align: center;
+  justify-self: center;
+}
+
+#bottom-home-left {
+  grid-column: 1/2;
+  background-color: #af3800;
+  border: black solid 5px;
+}
+
+#bottom-home-right {
+  grid-column: 2/3;
+  background-color: #af3800;
+  border: black solid 5px;
+}
+
+.bottom_links {
+  border-radius: 100px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  color: #f3f9d2;
+  background-color: #272727;
+  text-decoration: none;
+  border: solid black 2.5px;
+}
+
+.bottom_links:hover {
+  background-color: #f3f9d2;
+  color: #272727;
+}
+
+/* Everything below is Sub-Page 1 */
+
+#sub-one-top-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  margin: 25px;
+}
+
+#why-learn-guitar-box {
+  width: 75%;
+  border-radius: 100px;
+  border: black solid 5px;
+  padding: 10px;
+  background-color: #272727;
+}
