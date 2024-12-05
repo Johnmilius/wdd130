@@ -2,14 +2,23 @@
 /* ^ PARAGRAPH TEXT ^ */
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oregano:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 
+
+:root{
+    --primary-color: #272727;
+    --secondary-color: #799496;
+    --accent1-color: #f3f9d2;
+    --accent2-color: #af3800;
+    --accent3-color: #af3800;
+}
+
 /* * {
   border: 0.5px black solid;
 } */
+
 body{
     margin: 0;
-    background-color: #799496;
+    background-color: var(--secondary-color);
 }
-
 
 h1,
 h2 {
@@ -28,7 +37,7 @@ p {
 header {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  background-color: #272727;
+  background-color: var(--primary-color);
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: black 5px solid;
@@ -45,14 +54,14 @@ nav {
   align-self: center;
   justify-self: center;
   padding: 10px;
-  color: #f3f9d2;
-  background-color: #af3800;
+  color: var(--accent1-color);
+  background-color: var(--accent2-color);
   text-decoration: none;
 }
 
 .nav_links:hover {
-  background-color: #fe621d;
-  color: #272727;
+  background-color: var(--accent3-color);
+  color: var(--primary-color);
 }
 
 #logo_link {
@@ -65,8 +74,8 @@ nav {
 footer {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  background-color: #272727;
-  color: #f3f9d2;
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -84,8 +93,8 @@ footer img {
 }
 
 #who-am-i {
-  background-color: #af3800;
-  color: #f3f9d2;
+  background-color: var(--accent2-color);
+  color: var(--accent1-color);
   border: solid black 5px;
   margin: 50px;
   padding: 20px;
@@ -114,8 +123,8 @@ footer img {
   padding: 30px;
   text-align: center;
   font-size: larger;
-  background-color: #f3f9d2;
-  color: #272727;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 #my-journey-box h2:nth-of-type(1),
@@ -143,13 +152,13 @@ footer img {
 
 #bottom-home-left {
   grid-column: 1/2;
-  background-color: #af3800;
+  background-color: var(--accent2-color);
   border: black solid 5px;
 }
 
 #bottom-home-right {
   grid-column: 2/3;
-  background-color: #af3800;
+  background-color: var(--accent2-color);
   border: black solid 5px;
 }
 
@@ -158,15 +167,15 @@ footer img {
   align-self: center;
   justify-self: center;
   padding: 10px;
-  color: #f3f9d2;
-  background-color: #272727;
+  color: var(--accent1-color);
+  background-color: var(--primary-color);
   text-decoration: none;
   border: solid black 2.5px;
 }
 
 .bottom_links:hover {
-  background-color: #f3f9d2;
-  color: #272727;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 /* Everything below is Sub-Page 1 */
@@ -174,7 +183,7 @@ footer img {
 #sub-one-top-box {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  justify-items: center;
+  place-items: center;  
   margin: 25px;
 }
 
@@ -182,6 +191,19 @@ footer img {
   width: 75%;
   border-radius: 100px;
   border: black solid 5px;
-  padding: 10px;
-  background-color: #272727;
+  padding: 25px;
+  background-color: var(--primary-color);
+  color:var(--accent1-color);
+}
+
+#why-learn-guitar-box h1 {
+    margin-left: 15px;
+}
+
+#why-learn-guitar-box p{
+    margin: 10px;
+}
+
+#sub-one-top-box img{
+    border: black 5px solid;
 }
