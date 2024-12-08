@@ -24,7 +24,8 @@ h2 {
   font-family: "Oregeno", "Caveat Brush";
 }
 
-p, ul {
+p,
+ul {
   font-family: "Poppins";
   text-decoration: none;
 }
@@ -184,12 +185,11 @@ footer img {
   color: var(--primary-color);
 }
 
-
-
-
-
-
 /* Everything below is Sub-Page 1 */
+
+.bold-me {
+  font-weight: bold;
+}
 
 #sub-one-top-box {
   display: grid;
@@ -227,47 +227,80 @@ footer img {
   text-align: center;
 }
 
+#boost-your-mental-health-box p,
+#join-a-community-box p,
+#enhance-your-knowledge-and-skills-box p {
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#join-a-community-box {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+#join-a-community-box img {
+  border: black solid 5px;
+}
+
+#boost-your-mental-health-box,
+#enhance-your-knowledge-and-skills-box {
+  margin: 50px;
+}
 /* Bottom of sub-one link section */
 
 #sub-one-bottom-box {
   background-color: var(--accent2-color);
-  border-bottom: var(--primary-color) solid 5px;
-  border-top: var(--primary-color) solid 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 25px;
+  /* 
+  border-bottom: var(--primary-color) solid 5px;
+  border-top: var(--primary-color) solid 5px; */
+
+    border:var(--primary-color) solid 5px;
+    border-radius: 100px;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
 }
 
 #interested-in-learning-box {
-    border: var(--primary-color) solid 5px;
-    background-color: var(--accent1-color);
-    width: 150px;
-    align-self: center;
-    justify-self: center;
-    padding: 10px;
+  border: var(--primary-color) solid 5px;
+  background-color: var(--accent1-color);
+  width: 150px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  text-align: center;
+  margin-left: 40px;
 }
 
 #sub-one-bottom-link {
-    border-radius: 100px;
-    height: 30px;
-    width: 100px;
-    align-self: center;
-    justify-self: center;
-    padding: 10px;
-    background-color: var(--accent1-color);
-    border: var(--primary-color) solid 5px;
+  border-radius: 100px;
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  background-color: var(--accent1-color);
+  border: var(--primary-color) solid 5px;
+  margin-right: 40px;
 }
 
-#sub-one-bottom-link a{
-    text-decoration: none;
-    color: var(--primary-color);
-    text-align: center;
+#sub-one-bottom-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+  text-align: center;
 }
 
 #sub-one-bottom-link:hover {
-    background-color: var(--accent3-color);
+  background-color: var(--accent3-color);
 }
 
-.sub-two-link h2{
-    margin: 0;
+.sub-two-link h2 {
+  margin: 0;
 }
