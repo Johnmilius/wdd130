@@ -161,6 +161,7 @@ footer img {
   grid-column: 1/2;
   background-color: var(--accent2-color);
   border: black solid 5px;
+  padding: 5px;
 }
 
 #bottom-home-right {
@@ -311,7 +312,7 @@ footer img {
   margin: 0;
 }
 
-/* Everythin Below is Sub-Two */
+/* Everything Below is Sub-Two */
 
 #sub-two h1 {
   text-align: center;
@@ -324,10 +325,12 @@ footer img {
 #rates-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 3% 7%;
+  gap: 7%;
 }
 
 #lesson-rates-box {
-  border-radius: 100px;
+  border-radius: 75px;
   border: black solid 5px;
   padding: 25px;
   background-color: var(--primary-color);
@@ -335,9 +338,35 @@ footer img {
 }
 
 #flexibility-box {
-  border-radius: 100px;
+  border-radius: 75px;
   border: black solid 5px;
   padding: 25px;
   background-color: var(--primary-color);
   color: var(--accent1-color);
 }
+
+#flexibility-box h2, #lesson-rates-box h2{
+  text-align: center;
+}
+
+#lessons-arent-for-you{
+  margin: 35px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-items: center;
+}
+
+.helpfull-recourses{
+  text-decoration: none;
+  color: var(--accent2-color)
+}
+
+.helpfull-recourses:hover{
+  color: #fe621d;
+}
+
+#lessons-arent-for-you img{
+  border: 5px solid var(--primary-color);
+}
+
+
