@@ -111,6 +111,7 @@ footer img {
   grid-template-columns: 75% 25%;
   font-size: larger;
   gap: 20px;
+  align-items: center;
 }
 
 #who-am-i div {
