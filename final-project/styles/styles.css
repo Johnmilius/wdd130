@@ -8,7 +8,8 @@
   --accent1-color: #f3f9d2;
   --accent2-color: #af3800;
   --accent3-color: #fe621d;
-  --paragraph-font: "Poppins";
+  --paragraph-font: 'Poppins', Helvetica, sans-serif;
+  --heading-font: "Oregano", "Caveat Brush";
 }
 
 /* * {
@@ -22,12 +23,12 @@ body {
 
 h1,
 h2 {
-  font-family: "Oregeno", "Caveat Brush";
+  font-family: var(--heading-font);
 }
 
 p,
 ul {
-  font-family: "Poppins";
+  font-family: var(--paragraph-font);
   text-decoration: none;
 }
 
