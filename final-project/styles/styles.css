@@ -208,6 +208,7 @@ footer img {
   border-radius: 100px;
   border: black solid 5px;
   padding: 25px;
+  margin-top: 30px;
   background-color: var(--primary-color);
   color: var(--accent1-color);
 }
@@ -222,6 +223,7 @@ footer img {
 
 #sub-one-top-box img {
   border: black 5px solid;
+  margin-right: 30px;
 }
 
 /* Block Section for the reasons why to learn guitar */
@@ -246,13 +248,18 @@ footer img {
   grid-template-columns: 1fr 2fr;
 }
 
+#join-a-community-box-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #join-a-community-box img {
   border: black solid 5px;
 }
 
 #boost-your-mental-health-box,
 #enhance-your-knowledge-and-skills-box {
-  margin: 50px;
+  margin: 70px;
 }
 /* Bottom of sub-one link section */
 
